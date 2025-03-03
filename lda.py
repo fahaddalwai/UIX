@@ -62,7 +62,7 @@ if __name__ == "__main__":
     print(f"Coherence Score (Without Grammarly AI): {coherence_no_ai:.4f}")
     print(f"Coherence Score (With Grammarly AI): {coherence_ai:.4f}")
 
-    # LDA Topic Visualization (Optional)
+    # LDA Topic Visualization 
     lda_display_ai = gensimvis.prepare(lda_ai, corpus_ai, dict_ai)
     lda_display_no_ai = gensimvis.prepare(lda_no_ai, corpus_no_ai, dict_no_ai)
 
