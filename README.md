@@ -7,6 +7,7 @@
 ├── ldttr.py           # Lexical Diversity (Type-Token Ratio) Calculation
 ├── student_essays.csv # Dataset of student essays
 └── wpm.py             # Words Per Minute (WPM) Calculation
+└── thematicanalysislda.py  # LDA for themes from user interviews
 ```
 
 ## **Usage**
@@ -28,6 +29,10 @@ python -m spacy download en_core_web_sm
 - **Words Per Minute (WPM) Calculation:**
   ```bash
   python wpm.py
+  ```
+- **Thematic Coding LDA:**
+  ```bash
+  python thematicanalysislda.py
   ```
 
 ### **3️⃣ Dataset Format (`student_essays.csv`)**
